@@ -165,25 +165,6 @@ body {
 }
 
 
-/*  
-
-.col {
-    flex-direction: column;
-    margin: 1.2rem;
-    padding: 2rem;
-}
-
-.col_Design-1 {
-    border: 1px solid black;
-    background-color: rgb(211,211,211, 0.4);
-}
-
-.col_Design-2 {
-    padding: 0;
-}
-*/
-
-
 /* Images */
 
 .logo {
@@ -209,7 +190,7 @@ body {
 
 /*  Misc */
 
-/*   
+
 
 
 #copyright {
@@ -275,4 +256,3 @@ button:hover {
     border: 1.5px solid black;
 }
 
-*/
