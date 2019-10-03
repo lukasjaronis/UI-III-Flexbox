@@ -159,7 +159,8 @@ h5 {
 
 nav {
     margin-top: 1rem;
-    border-bottom: 1px solid brown;
+    border-bottom: 2px solid rgb(0,191,255, 0.3);
+    border-top: 2px solid rgb(0,191,255, 0.3);
     border-radius: 1rem;
 }
 
@@ -173,21 +174,11 @@ nav li {
     margin: 2rem;
 }
 
-.fixed-nav {
-    position: fixed;
-    top: 0%;
-    left: 0%;
-    right: 0%;
-    margin: auto;
-    max-width: 60rem;
-}
-
 
 .wrapper {
     max-width: 60rem;
     margin-right: auto;
     margin-left: auto;
-    border-left: 1px solid lightgray border-right: 1px solid lightgray;
 }
 
 * {
@@ -241,8 +232,8 @@ body {
 
 .logo {
     position: absolute;
-    left: 84%;
-    top: 40%;
+    left: 70.32%;
+    top: 5.5%;
 }
 
 .landing_page {
