@@ -86,36 +86,21 @@ header {
 
 
 nav {
-	width: 99%;
-	margin: 20px;
-	padding: 20px;
-	text-align: center;
-	background-color: rgb(0,255,255, 0.3);
-	border-radius: 10%;
+    margin-top: 1rem;
+    border-bottom: 2px solid rgb(0,191,255, 0.3);
+    border-top: 2px solid rgb(0,191,255, 0.3);
+    border-radius: 1rem;
 }
 
 nav ul {
-	margin-left: -100px;
-	margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
 nav li {
-	display: inline-block;
-	width: 10%;
-	height: 80%;
-	color: black;
+    margin: 2rem;
 }
-
-.fixed-nav {
-	position: fixed;
-	top: 0%;
-	left: 0%;
-	right: 0%;
-	margin-left: auto;
-	margin-right: auto;
-	width: 50%;
-}  
-
 
 /*  Rows */
 
@@ -183,9 +168,16 @@ nav li {
 }
 
 a {
-	text-decoration: none;
-	color: orange;
-	font-weight: bolder;
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+}
+
+a:hover {
+    color: rgb(139,0,0);
+    border-top: 2px solid rgb(139,0,0,0.2);
+    border-bottom: 2px solid rgb(139,0,0,0.2);
+    padding: 5px;
 }
 
 .main_content_col-1 button {
