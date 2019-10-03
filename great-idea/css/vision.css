@@ -270,7 +270,12 @@ img.ai_img2 {
 }
 
 .vision_col h1 {
+    font-size: 2rem;
+    text-align: center;
     background-color: rgb(0, 191, 255, 0.1);
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
 }
 
 .footer_col {
@@ -289,6 +294,12 @@ img.ai_img2 {
 }
 
 div.col button {
+    display: flex;
+    justify-content: center;
+    margin: 1rem auto 1rem auto;
+}
+
+div.footer_col button {
     display: flex;
     justify-content: center;
     margin: 1rem auto 1rem auto;
