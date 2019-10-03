@@ -160,8 +160,8 @@ h5 {
 
 nav {
     margin-top: 1rem;
-    border-bottom: 2px solid rgb(0,191,255, 0.3);
-    border-top: 2px solid rgb(0,191,255, 0.3);
+    border-bottom: 2px solid rgb(0, 191, 255, 0.3);
+    border-top: 2px solid rgb(0, 191, 255, 0.3);
     border-radius: 1rem;
 }
 
@@ -211,10 +211,23 @@ img.ai_img {
     height: auto;
 }
 
+img.ai_img2 {
+    border-radius: 5rem;
+    width: 95%;
+    height: auto;
+}
+
 .landing_page2 {
-display: flex;
-justify-content: center;
-align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.landing_page3 {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /*  Rows */
@@ -233,18 +246,52 @@ align-items: center;
     align-items: center;
 }
 
+.footer_row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
 
 /*  Col */
 
 .col {
-
-border: 1px solid black;
-margin: 2rem;
-padding: 1rem;
+    text-align: start;
+    border: 1px solid lightgray;
+    margin: 2rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    background-color: rgb(0, 191, 255, 0.1);
 }
 
 .vision_col {
-padding-bottom: 3rem;
+    padding-bottom: 3rem;
+}
+
+.vision_col h1 {
+    background-color: rgb(0, 191, 255, 0.1);
+}
+
+.footer_col {
+    text-align: start;
+    border: 1px solid lightgray;
+    margin: 2rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    background-color: rgb(0, 191, 255, 0.1);
+    width: 33%;
+}
+
+.footer_col:last-child {
+    width: 72%;
+    padding: 3rem;
+}
+
+div.col button {
+    display: flex;
+    justify-content: center;
+    margin: 1rem auto 1rem auto;
 }
 
 /*  Misc */
@@ -260,9 +307,9 @@ a {
 }
 
 a:hover {
-    color: rgb(139,0,0);
-    border-top: 2px solid rgb(139,0,0,0.2);
-    border-bottom: 2px solid rgb(139,0,0,0.2);
+    color: rgb(139, 0, 0);
+    border-top: 2px solid rgb(139, 0, 0, 0.2);
+    border-bottom: 2px solid rgb(139, 0, 0, 0.2);
     padding: 5px;
 }
 
