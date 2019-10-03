@@ -109,7 +109,6 @@ nav li {
     border: 1px solid lightgray;
 }
 
-
 * {
 	font-size: 16px;
 }
@@ -127,27 +126,6 @@ body {
     justify-content: center;
   }
 
-
-/*  
-.row_Wrapper {
-    max-width: 55rem;
-    margin: 2rem auto 2rem auto;
-}
-
-.row_Main {
-    display: flex;
-    flex-direction: column;
-    margin: 2rem;
-}
-
-
-.row {
-    display: flex;
-}
-
-*/
-
-
 /* Columns */
 
 .col {
@@ -157,10 +135,15 @@ body {
     margin: 1rem;
 }
 
+.facts_col {
+    width: 50%;
+    padding: 3rem;
+    margin: 1rem;
+}
+
 .service_col {
     width: 100%;
     padding: 3rem;
-    border: 1px solid black;
     margin: 1rem;
 }
 
@@ -174,10 +157,10 @@ body {
 }
 
 .landing_page {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 5rem;
+    margin: 5rem auto auto auto;
+    text-align: center;
+    max-width: 880px;
+    max-height: 200px;
 }
 
 
@@ -189,9 +172,6 @@ body {
 
 
 /*  Misc */
-
-
-
 
 #copyright {
     text-align: center;
