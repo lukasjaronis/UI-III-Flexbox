@@ -137,6 +137,7 @@ table {
 /* Set every element's box-sizing to border-box */
 * {
     box-sizing: border-box;
+    font-size: 16px;
 }
 
 html,
@@ -155,23 +156,21 @@ h5 {
     margin-bottom: 15px;
 }
 
-/* Your code starts here! */
+/*  my code */
 
 nav {
     margin-top: 1rem;
-    border-bottom: 2px solid rgb(0,191,255, 0.3);
-    border-top: 2px solid rgb(0,191,255, 0.3);
+    border-bottom: 2px solid rgb(0, 191, 255, 0.3);
+    border-top: 2px solid rgb(0, 191, 255, 0.3);
     border-radius: 1rem;
 }
 
 nav ul {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+
 }
 
 nav li {
-    margin: 2rem;
+   
 }
 
 
@@ -181,15 +180,56 @@ nav li {
     margin-left: auto;
 }
 
-* {
-    font-size: 16px;
-}
-
 body {
     padding-top: 1rem;
 }
 
-/* Rows */
+/* Images */
+
+
+
+.landing_page {
+    margin: 2rem auto auto auto;
+    text-align: center;
+    max-width: 960px;
+    max-height: 374px;
+}
+
+.landing_page img {
+    border-radius: 5rem;
+}
+
+img.ai_img {
+    border-radius: 5rem;
+    width: 95%;
+    height: auto;
+}
+
+img.ai_img2 {
+    border-radius: 5rem;
+    width: 95%;
+    height: auto;
+}
+
+.landing_page2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.landing_page3 {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*  Rows */
+
+.nav_row {
+    display: flex;
+    justify-content: space-between;
+}
 
 .row {
     display: flex;
@@ -198,61 +238,88 @@ body {
     justify-content: center;
 }
 
-.service_row {
+.vision_row {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-/* Columns */
+.footer_row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+/*  Col */
+
+.nav_col {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin: 2rem;
+}
+
+.nav_col ul {
+    display: flex;
+    flex-direction: row;
+}
+
+.nav_col ul li {
+    margin: 2rem;;
+}
+
 
 .col {
-    width: 50%;
-    padding: 3rem;
-    border: 1px solid black;
-    margin: 1rem;
+    text-align: start;
+    border: 1px solid lightgray;
+    margin: 2rem;
+    padding: 1rem;
     border-radius: 1rem;
+    background-color: rgb(0, 191, 255, 0.1);
 }
 
-.facts_col {
-    width: 50%;
-    padding: 3rem;
-    margin: 1rem;
+.vision_col {
+    padding-bottom: 3rem;
 }
 
-.service_col {
-    width: 100%;
-    padding: 2rem;
-    margin: 1rem;
-}
-
-
-/* Images */
-
-.logo {
-    position: absolute;
-    left: 70.32%;
-    top: 5.5%;
-}
-
-.landing_page {
-    margin: 5rem auto auto auto;
+.vision_col h1 {
+    font-size: 2rem;
     text-align: center;
-    max-width: 880px;
-    max-height: 200px;
+    background-color: rgb(0, 191, 255, 0.1);
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
 }
 
-.landing_page img {
-    border-radius: 1.3rem;
+.footer_col {
+    text-align: start;
+    border: 1px solid lightgray;
+    margin: 2rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    background-color: rgb(0, 191, 255, 0.1);
+    width: 33%;
 }
 
-
-.services-info-img {
-    max-width: 401.62px;
-    max-height: 261.8px;
+.footer_col:last-child {
+    width: 72%;
+    padding: 3rem;
 }
 
+div.col button {
+    display: flex;
+    justify-content: center;
+    margin: 1rem auto 1rem auto;
+}
+
+div.footer_col button {
+    display: flex;
+    justify-content: center;
+    margin: 1rem auto 1rem auto;
+}
 
 /*  Misc */
 
@@ -267,9 +334,9 @@ a {
 }
 
 a:hover {
-    color: rgb(139,0,0);
-    border-top: 2px solid rgb(139,0,0,0.2);
-    border-bottom: 2px solid rgb(139,0,0,0.2);
+    color: rgb(139, 0, 0);
+    border-top: 2px solid rgb(139, 0, 0, 0.2);
+    border-bottom: 2px solid rgb(139, 0, 0, 0.2);
     padding: 5px;
 }
 
@@ -282,11 +349,6 @@ h2 {
     font-weight: 900;
 }
 
-.row_Four h2 {
-    font-size: 14px;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-}
 
 hr {
     width: 96%;
@@ -294,16 +356,6 @@ hr {
     background-color: black;
 }
 
-
-.facts_col ul {
-    padding-top: 1rem;
-    padding-left: 1rem;
-}
-
-.facts_col ul li {
-    list-style-type: square;
-    padding-bottom: 8px;
-}
 
 button {
     margin-top: 1rem;
