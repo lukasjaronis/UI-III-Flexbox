@@ -166,13 +166,11 @@ nav {
 }
 
 nav ul {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+
 }
 
 nav li {
-    margin: 2rem;
+   
 }
 
 
@@ -188,11 +186,7 @@ body {
 
 /* Images */
 
-.logo {
-    position: absolute;
-    left: 70.32%;
-    top: 5.5%;
-}
+
 
 .landing_page {
     margin: 2rem auto auto auto;
@@ -232,6 +226,11 @@ img.ai_img2 {
 
 /*  Rows */
 
+.nav_row {
+    display: flex;
+    justify-content: space-between;
+}
+
 .row {
     display: flex;
     flex-direction: column;
@@ -255,6 +254,23 @@ img.ai_img2 {
 
 
 /*  Col */
+
+.nav_col {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin: 2rem;
+}
+
+.nav_col ul {
+    display: flex;
+    flex-direction: row;
+}
+
+.nav_col ul li {
+    margin: 2rem;;
+}
+
 
 .col {
     text-align: start;
